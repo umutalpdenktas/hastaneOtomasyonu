@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hastane_otomasyonu_yDataSet3" targetNamespace="http://tempuri.org/hastane_otomasyonu_yDataSet3.xsd" xmlns:mstns="http://tempuri.org/hastane_otomasyonu_yDataSet3.xsd" xmlns="http://tempuri.org/hastane_otomasyonu_yDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hastane_otomasyonu_yConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hastane_otomasyonu_yConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Uygulama.Properties.Settings.GlobalReference.Default.hastane_otomasyonu_yConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="hastaTableAdapter" GeneratorDataComponentClassName="hastaTableAdapter" Name="hasta" UserDataComponentName="hastaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hastane_otomasyonu_yConnectionString (Settings)" DbObjectName="hastane_otomasyonu_y.dbo.hasta" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[hasta] WHERE (([hasta_kodu] = @Original_hasta_kodu) AND ((@IsNull_hasta_adi = 1 AND [hasta_adi] IS NULL) OR ([hasta_adi] = @Original_hasta_adi)) AND ((@IsNull_hasta_soyadi = 1 AND [hasta_soyadi] IS NULL) OR ([hasta_soyadi] = @Original_hasta_soyadi)) AND ((@IsNull_hasta_pasaportno = 1 AND [hasta_pasaportno] IS NULL) OR ([hasta_pasaportno] = @Original_hasta_pasaportno)) AND ((@IsNull_hasta_babaadi = 1 AND [hasta_babaadi] IS NULL) OR ([hasta_babaadi] = @Original_hasta_babaadi)) AND ((@IsNull_hasta_anneadi = 1 AND [hasta_anneadi] IS NULL) OR ([hasta_anneadi] = @Original_hasta_anneadi)) AND ((@IsNull_hasta_dtarihi = 1 AND [hasta_dtarihi] IS NULL) OR ([hasta_dtarihi] = @Original_hasta_dtarihi)) AND ((@IsNull_hasta_dyeri = 1 AND [hasta_dyeri] IS NULL) OR ([hasta_dyeri] = @Original_hasta_dyeri)) AND ((@IsNull_hasta_cinsiyet = 1 AND [hasta_cinsiyet] IS NULL) OR ([hasta_cinsiyet] = @Original_hasta_cinsiyet)) AND ((@IsNull_hasta_boyu = 1 AND [hasta_boyu] IS NULL) OR ([hasta_boyu] = @Original_hasta_boyu)) AND ((@IsNull_hasta_kilosu = 1 AND [hasta_kilosu] IS NULL) OR ([hasta_kilosu] = @Original_hasta_kilosu)) AND ((@IsNull_hasta_meslegi = 1 AND [hasta_meslegi] IS NULL) OR ([hasta_meslegi] = @Original_hasta_meslegi)) AND ((@IsNull_hasta_kayittarihi = 1 AND [hasta_kayittarihi] IS NULL) OR ([hasta_kayittarihi] = @Original_hasta_kayittarihi)) AND ((@IsNull_hasta_il = 1 AND [hasta_il] IS NULL) OR ([hasta_il] = @Original_hasta_il)) AND ((@IsNull_hasta_ilce = 1 AND [hasta_ilce] IS NULL) OR ([hasta_ilce] = @Original_hasta_ilce)) AND ((@IsNull_hasta_mahalle_koy = 1 AND [hasta_mahalle_koy] IS NULL) OR ([hasta_mahalle_koy] = @Original_hasta_mahalle_koy)) AND ((@IsNull_hasta_cadde_sokak = 1 AND [hasta_cadde_sokak] IS NULL) OR ([hasta_cadde_sokak] = @Original_hasta_cadde_sokak)) AND ((@IsNull_hasta_email = 1 AND [hasta_email] IS NULL) OR ([hasta_email] = @Original_hasta_email)) AND ((@IsNull_hasta_sigara = 1 AND [hasta_sigara] IS NULL) OR ([hasta_sigara] = @Original_hasta_sigara)) AND ((@IsNull_hasta_alkol = 1 AND [hasta_alkol] IS NULL) OR ([hasta_alkol] = @Original_hasta_alkol)) AND ((@IsNull_hasta_kangrubu = 1 AND [hasta_kangrubu] IS NULL) OR ([hasta_kangrubu] = @Original_hasta_kangrubu)) AND ((@IsNull_hasta_hepatit = 1 AND [hasta_hepatit] IS NULL) OR ([hasta_hepatit] = @Original_hasta_hepatit)) AND ((@IsNull_hasta_hiv = 1 AND [hasta_hiv] IS NULL) OR ([hasta_hiv] = @Original_hasta_hiv)) AND ((@IsNull_hasta_diyabet = 1 AND [hasta_diyabet] IS NULL) OR ([hasta_diyabet] = @Original_hasta_diyabet)) AND ((@IsNull_hasta_kulilac = 1 AND [hasta_kulilac] IS NULL) OR ([hasta_kulilac] = @Original_hasta_kulilac)) AND ((@IsNull_hasta_gechastalik = 1 AND [hasta_gechastalik] IS NULL) OR ([hasta_gechastalik] = @Original_hasta_gechastalik)) AND ((@IsNull_hasta_ailehastalik = 1 AND [hasta_ailehastalik] IS NULL) OR ([hasta_ailehastalik] = @Original_hasta_ailehastalik)) AND ((@IsNull_hasta_gecameliyat = 1 AND [hasta_gecameliyat] IS NULL) OR ([hasta_gecameliyat] = @Original_hasta_gecameliyat)) AND ((@IsNull_hasta_resim = 1 AND [hasta_resim] IS NULL) OR ([hasta_resim] = @Original_hasta_resim)) AND ((@IsNull_hasta_esadi = 1 AND [hasta_esadi] IS NULL) OR ([hasta_esadi] = @Original_hasta_esadi)) AND ((@IsNull_hasta_essoyadi = 1 AND [hasta_essoyadi] IS NULL) OR ([hasta_essoyadi] = @Original_hasta_essoyadi)) AND ((@IsNull_hasta_esmeslegi = 1 AND [hasta_esmeslegi] IS NULL) OR ([hasta_esmeslegi] = @Original_hasta_esmeslegi)) AND ((@IsNull_hasta_es_kangrubu = 1 AND [hasta_es_kangrubu] IS NULL) OR ([hasta_es_kangrubu] = @Original_hasta_es_kangrubu)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_hasta_kodu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kodu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_adi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_adi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_adi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_adi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_soyadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_soyadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_soyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_soyadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_pasaportno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_pasaportno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_pasaportno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_pasaportno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_babaadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_babaadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_babaadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_babaadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_anneadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_anneadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_anneadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_anneadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_dtarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_dtarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_dtarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dtarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_dyeri" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_dyeri" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_dyeri" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dyeri" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_cinsiyet" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_cinsiyet" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_cinsiyet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cinsiyet" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_boyu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_boyu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_hasta_boyu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_boyu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kilosu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kilosu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_hasta_kilosu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kilosu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_meslegi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_meslegi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_meslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_meslegi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kayittarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kayittarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_kayittarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kayittarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_il" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_il" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_il" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_il" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_ilce" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_ilce" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_ilce" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ilce" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_mahalle_koy" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_mahalle_koy" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_mahalle_koy" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_mahalle_koy" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_cadde_sokak" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_cadde_sokak" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_cadde_sokak" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cadde_sokak" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_email" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_email" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_email" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_sigara" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_sigara" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_sigara" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_sigara" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_alkol" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_alkol" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_alkol" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_alkol" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kangrubu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kangrubu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kangrubu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_hepatit" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_hepatit" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_hepatit" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hepatit" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_hiv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_hiv" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_hiv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hiv" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_diyabet" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_diyabet" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_diyabet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_diyabet" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kulilac" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kulilac" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_kulilac" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kulilac" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_gechastalik" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_gechastalik" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_gechastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gechastalik" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_ailehastalik" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_ailehastalik" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_ailehastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ailehastalik" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_gecameliyat" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_gecameliyat" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_gecameliyat" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gecameliyat" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_resim" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_resim" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_hasta_resim" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="hasta_resim" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_esadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_esadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_esadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_essoyadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_essoyadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_essoyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_essoyadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_esmeslegi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_esmeslegi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_esmeslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esmeslegi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_es_kangrubu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_es_kangrubu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_es_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_es_kangrubu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[hasta] ([hasta_kodu], [hasta_adi], [hasta_soyadi], [hasta_tcno], [hasta_pasaportno], [hasta_babaadi], [hasta_anneadi], [hasta_dtarihi], [hasta_dyeri], [hasta_cinsiyet], [hasta_boyu], [hasta_kilosu], [hasta_meslegi], [hasta_kayittarihi], [hasta_il], [hasta_ilce], [hasta_mahalle_koy], [hasta_cadde_sokak], [hasta_cepno], [hasta_evno], [hasta_isno], [hasta_email], [hasta_sigara], [hasta_alkol], [hasta_kangrubu], [hasta_hepatit], [hasta_hiv], [hasta_diyabet], [hasta_kulilac], [hasta_gechastalik], [hasta_ailehastalik], [hasta_gecameliyat], [hasta_resim], [hasta_ozcesmis], [hasta_soygecmis], [hasta_esadi], [hasta_essoyadi], [hasta_estelno], [hasta_esmeslegi], [hasta_es_kangrubu], [hasta_uyari_mesaj]) VALUES (@hasta_kodu, @hasta_adi, @hasta_soyadi, @hasta_tcno, @hasta_pasaportno, @hasta_babaadi, @hasta_anneadi, @hasta_dtarihi, @hasta_dyeri, @hasta_cinsiyet, @hasta_boyu, @hasta_kilosu, @hasta_meslegi, @hasta_kayittarihi, @hasta_il, @hasta_ilce, @hasta_mahalle_koy, @hasta_cadde_sokak, @hasta_cepno, @hasta_evno, @hasta_isno, @hasta_email, @hasta_sigara, @hasta_alkol, @hasta_kangrubu, @hasta_hepatit, @hasta_hiv, @hasta_diyabet, @hasta_kulilac, @hasta_gechastalik, @hasta_ailehastalik, @hasta_gecameliyat, @hasta_resim, @hasta_ozcesmis, @hasta_soygecmis, @hasta_esadi, @hasta_essoyadi, @hasta_estelno, @hasta_esmeslegi, @hasta_es_kangrubu, @hasta_uyari_mesaj);
+SELECT hasta_kodu, hasta_adi, hasta_soyadi, hasta_tcno, hasta_pasaportno, hasta_babaadi, hasta_anneadi, hasta_dtarihi, hasta_dyeri, hasta_cinsiyet, hasta_boyu, hasta_kilosu, hasta_meslegi, hasta_kayittarihi, hasta_il, hasta_ilce, hasta_mahalle_koy, hasta_cadde_sokak, hasta_cepno, hasta_evno, hasta_isno, hasta_email, hasta_sigara, hasta_alkol, hasta_kangrubu, hasta_hepatit, hasta_hiv, hasta_diyabet, hasta_kulilac, hasta_gechastalik, hasta_ailehastalik, hasta_gecameliyat, hasta_resim, hasta_ozcesmis, hasta_soygecmis, hasta_esadi, hasta_essoyadi, hasta_estelno, hasta_esmeslegi, hasta_es_kangrubu, hasta_uyari_mesaj FROM hasta WHERE (hasta_kodu = @hasta_kodu)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@hasta_kodu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kodu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_adi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_adi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_soyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_soyadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_tcno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_tcno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_pasaportno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_pasaportno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_babaadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_babaadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_anneadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_anneadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_dtarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dtarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_dyeri" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dyeri" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_cinsiyet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cinsiyet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@hasta_boyu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_boyu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@hasta_kilosu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kilosu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_meslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_meslegi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_kayittarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kayittarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_il" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_il" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_ilce" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ilce" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_mahalle_koy" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_mahalle_koy" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_cadde_sokak" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cadde_sokak" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_cepno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cepno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_evno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_evno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_isno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_isno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_email" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_sigara" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_sigara" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_alkol" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_alkol" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kangrubu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_hepatit" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hepatit" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_hiv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hiv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_diyabet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_diyabet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_kulilac" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kulilac" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_gechastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gechastalik" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_ailehastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ailehastalik" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_gecameliyat" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gecameliyat" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@hasta_resim" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="hasta_resim" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_ozcesmis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ozcesmis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_soygecmis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_soygecmis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_esadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_essoyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_essoyadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_estelno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_estelno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_esmeslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esmeslegi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_es_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_es_kangrubu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_uyari_mesaj" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_uyari_mesaj" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT hasta_kodu, hasta_adi, hasta_soyadi, hasta_tcno, hasta_pasaportno, hasta_babaadi, hasta_anneadi, hasta_dtarihi, hasta_dyeri, hasta_cinsiyet, hasta_boyu, hasta_kilosu, hasta_meslegi, hasta_kayittarihi, hasta_il, hasta_ilce, hasta_mahalle_koy, hasta_cadde_sokak, hasta_cepno, hasta_evno, hasta_isno, hasta_email, hasta_sigara, hasta_alkol, hasta_kangrubu, hasta_hepatit, hasta_hiv, hasta_diyabet, hasta_kulilac, hasta_gechastalik, hasta_ailehastalik, hasta_gecameliyat, hasta_resim, hasta_ozcesmis, hasta_soygecmis, hasta_esadi, hasta_essoyadi, hasta_estelno, hasta_esmeslegi, hasta_es_kangrubu, hasta_uyari_mesaj FROM dbo.hasta</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[hasta] SET [hasta_kodu] = @hasta_kodu, [hasta_adi] = @hasta_adi, [hasta_soyadi] = @hasta_soyadi, [hasta_tcno] = @hasta_tcno, [hasta_pasaportno] = @hasta_pasaportno, [hasta_babaadi] = @hasta_babaadi, [hasta_anneadi] = @hasta_anneadi, [hasta_dtarihi] = @hasta_dtarihi, [hasta_dyeri] = @hasta_dyeri, [hasta_cinsiyet] = @hasta_cinsiyet, [hasta_boyu] = @hasta_boyu, [hasta_kilosu] = @hasta_kilosu, [hasta_meslegi] = @hasta_meslegi, [hasta_kayittarihi] = @hasta_kayittarihi, [hasta_il] = @hasta_il, [hasta_ilce] = @hasta_ilce, [hasta_mahalle_koy] = @hasta_mahalle_koy, [hasta_cadde_sokak] = @hasta_cadde_sokak, [hasta_cepno] = @hasta_cepno, [hasta_evno] = @hasta_evno, [hasta_isno] = @hasta_isno, [hasta_email] = @hasta_email, [hasta_sigara] = @hasta_sigara, [hasta_alkol] = @hasta_alkol, [hasta_kangrubu] = @hasta_kangrubu, [hasta_hepatit] = @hasta_hepatit, [hasta_hiv] = @hasta_hiv, [hasta_diyabet] = @hasta_diyabet, [hasta_kulilac] = @hasta_kulilac, [hasta_gechastalik] = @hasta_gechastalik, [hasta_ailehastalik] = @hasta_ailehastalik, [hasta_gecameliyat] = @hasta_gecameliyat, [hasta_resim] = @hasta_resim, [hasta_ozcesmis] = @hasta_ozcesmis, [hasta_soygecmis] = @hasta_soygecmis, [hasta_esadi] = @hasta_esadi, [hasta_essoyadi] = @hasta_essoyadi, [hasta_estelno] = @hasta_estelno, [hasta_esmeslegi] = @hasta_esmeslegi, [hasta_es_kangrubu] = @hasta_es_kangrubu, [hasta_uyari_mesaj] = @hasta_uyari_mesaj WHERE (([hasta_kodu] = @Original_hasta_kodu) AND ((@IsNull_hasta_adi = 1 AND [hasta_adi] IS NULL) OR ([hasta_adi] = @Original_hasta_adi)) AND ((@IsNull_hasta_soyadi = 1 AND [hasta_soyadi] IS NULL) OR ([hasta_soyadi] = @Original_hasta_soyadi)) AND ((@IsNull_hasta_pasaportno = 1 AND [hasta_pasaportno] IS NULL) OR ([hasta_pasaportno] = @Original_hasta_pasaportno)) AND ((@IsNull_hasta_babaadi = 1 AND [hasta_babaadi] IS NULL) OR ([hasta_babaadi] = @Original_hasta_babaadi)) AND ((@IsNull_hasta_anneadi = 1 AND [hasta_anneadi] IS NULL) OR ([hasta_anneadi] = @Original_hasta_anneadi)) AND ((@IsNull_hasta_dtarihi = 1 AND [hasta_dtarihi] IS NULL) OR ([hasta_dtarihi] = @Original_hasta_dtarihi)) AND ((@IsNull_hasta_dyeri = 1 AND [hasta_dyeri] IS NULL) OR ([hasta_dyeri] = @Original_hasta_dyeri)) AND ((@IsNull_hasta_cinsiyet = 1 AND [hasta_cinsiyet] IS NULL) OR ([hasta_cinsiyet] = @Original_hasta_cinsiyet)) AND ((@IsNull_hasta_boyu = 1 AND [hasta_boyu] IS NULL) OR ([hasta_boyu] = @Original_hasta_boyu)) AND ((@IsNull_hasta_kilosu = 1 AND [hasta_kilosu] IS NULL) OR ([hasta_kilosu] = @Original_hasta_kilosu)) AND ((@IsNull_hasta_meslegi = 1 AND [hasta_meslegi] IS NULL) OR ([hasta_meslegi] = @Original_hasta_meslegi)) AND ((@IsNull_hasta_kayittarihi = 1 AND [hasta_kayittarihi] IS NULL) OR ([hasta_kayittarihi] = @Original_hasta_kayittarihi)) AND ((@IsNull_hasta_il = 1 AND [hasta_il] IS NULL) OR ([hasta_il] = @Original_hasta_il)) AND ((@IsNull_hasta_ilce = 1 AND [hasta_ilce] IS NULL) OR ([hasta_ilce] = @Original_hasta_ilce)) AND ((@IsNull_hasta_mahalle_koy = 1 AND [hasta_mahalle_koy] IS NULL) OR ([hasta_mahalle_koy] = @Original_hasta_mahalle_koy)) AND ((@IsNull_hasta_cadde_sokak = 1 AND [hasta_cadde_sokak] IS NULL) OR ([hasta_cadde_sokak] = @Original_hasta_cadde_sokak)) AND ((@IsNull_hasta_email = 1 AND [hasta_email] IS NULL) OR ([hasta_email] = @Original_hasta_email)) AND ((@IsNull_hasta_sigara = 1 AND [hasta_sigara] IS NULL) OR ([hasta_sigara] = @Original_hasta_sigara)) AND ((@IsNull_hasta_alkol = 1 AND [hasta_alkol] IS NULL) OR ([hasta_alkol] = @Original_hasta_alkol)) AND ((@IsNull_hasta_kangrubu = 1 AND [hasta_kangrubu] IS NULL) OR ([hasta_kangrubu] = @Original_hasta_kangrubu)) AND ((@IsNull_hasta_hepatit = 1 AND [hasta_hepatit] IS NULL) OR ([hasta_hepatit] = @Original_hasta_hepatit)) AND ((@IsNull_hasta_hiv = 1 AND [hasta_hiv] IS NULL) OR ([hasta_hiv] = @Original_hasta_hiv)) AND ((@IsNull_hasta_diyabet = 1 AND [hasta_diyabet] IS NULL) OR ([hasta_diyabet] = @Original_hasta_diyabet)) AND ((@IsNull_hasta_kulilac = 1 AND [hasta_kulilac] IS NULL) OR ([hasta_kulilac] = @Original_hasta_kulilac)) AND ((@IsNull_hasta_gechastalik = 1 AND [hasta_gechastalik] IS NULL) OR ([hasta_gechastalik] = @Original_hasta_gechastalik)) AND ((@IsNull_hasta_ailehastalik = 1 AND [hasta_ailehastalik] IS NULL) OR ([hasta_ailehastalik] = @Original_hasta_ailehastalik)) AND ((@IsNull_hasta_gecameliyat = 1 AND [hasta_gecameliyat] IS NULL) OR ([hasta_gecameliyat] = @Original_hasta_gecameliyat)) AND ((@IsNull_hasta_resim = 1 AND [hasta_resim] IS NULL) OR ([hasta_resim] = @Original_hasta_resim)) AND ((@IsNull_hasta_esadi = 1 AND [hasta_esadi] IS NULL) OR ([hasta_esadi] = @Original_hasta_esadi)) AND ((@IsNull_hasta_essoyadi = 1 AND [hasta_essoyadi] IS NULL) OR ([hasta_essoyadi] = @Original_hasta_essoyadi)) AND ((@IsNull_hasta_esmeslegi = 1 AND [hasta_esmeslegi] IS NULL) OR ([hasta_esmeslegi] = @Original_hasta_esmeslegi)) AND ((@IsNull_hasta_es_kangrubu = 1 AND [hasta_es_kangrubu] IS NULL) OR ([hasta_es_kangrubu] = @Original_hasta_es_kangrubu)));
+SELECT hasta_kodu, hasta_adi, hasta_soyadi, hasta_tcno, hasta_pasaportno, hasta_babaadi, hasta_anneadi, hasta_dtarihi, hasta_dyeri, hasta_cinsiyet, hasta_boyu, hasta_kilosu, hasta_meslegi, hasta_kayittarihi, hasta_il, hasta_ilce, hasta_mahalle_koy, hasta_cadde_sokak, hasta_cepno, hasta_evno, hasta_isno, hasta_email, hasta_sigara, hasta_alkol, hasta_kangrubu, hasta_hepatit, hasta_hiv, hasta_diyabet, hasta_kulilac, hasta_gechastalik, hasta_ailehastalik, hasta_gecameliyat, hasta_resim, hasta_ozcesmis, hasta_soygecmis, hasta_esadi, hasta_essoyadi, hasta_estelno, hasta_esmeslegi, hasta_es_kangrubu, hasta_uyari_mesaj FROM hasta WHERE (hasta_kodu = @hasta_kodu)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@hasta_kodu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kodu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_adi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_adi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_soyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_soyadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_tcno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_tcno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_pasaportno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_pasaportno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_babaadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_babaadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_anneadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_anneadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_dtarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dtarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_dyeri" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dyeri" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_cinsiyet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cinsiyet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@hasta_boyu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_boyu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@hasta_kilosu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kilosu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_meslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_meslegi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_kayittarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kayittarihi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_il" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_il" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_ilce" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ilce" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_mahalle_koy" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_mahalle_koy" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_cadde_sokak" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cadde_sokak" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_cepno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cepno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_evno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_evno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_isno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_isno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_email" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_sigara" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_sigara" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_alkol" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_alkol" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kangrubu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_hepatit" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hepatit" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_hiv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hiv" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_diyabet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_diyabet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_kulilac" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kulilac" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_gechastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gechastalik" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_ailehastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ailehastalik" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_gecameliyat" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gecameliyat" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@hasta_resim" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="hasta_resim" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_ozcesmis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ozcesmis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_soygecmis" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_soygecmis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_esadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_essoyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_essoyadi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_estelno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_estelno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_esmeslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esmeslegi" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_es_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_es_kangrubu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@hasta_uyari_mesaj" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_uyari_mesaj" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_hasta_kodu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kodu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_adi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_adi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_adi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_adi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_soyadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_soyadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_soyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_soyadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_pasaportno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_pasaportno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_pasaportno" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_pasaportno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_babaadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_babaadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_babaadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_babaadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_anneadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_anneadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_anneadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_anneadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_dtarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_dtarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_dtarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dtarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_dyeri" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_dyeri" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_dyeri" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_dyeri" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_cinsiyet" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_cinsiyet" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_cinsiyet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cinsiyet" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_boyu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_boyu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_hasta_boyu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_boyu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kilosu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kilosu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_hasta_kilosu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kilosu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_meslegi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_meslegi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_meslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_meslegi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kayittarihi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kayittarihi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_kayittarihi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kayittarihi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_il" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_il" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_il" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_il" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_ilce" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_ilce" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_ilce" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ilce" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_mahalle_koy" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_mahalle_koy" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_mahalle_koy" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_mahalle_koy" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_cadde_sokak" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_cadde_sokak" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_cadde_sokak" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_cadde_sokak" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_email" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_email" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_email" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_email" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_sigara" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_sigara" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_sigara" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_sigara" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_alkol" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_alkol" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_alkol" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_alkol" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kangrubu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kangrubu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kangrubu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_hepatit" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_hepatit" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_hepatit" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hepatit" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_hiv" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_hiv" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_hiv" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_hiv" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_diyabet" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_diyabet" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_diyabet" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_diyabet" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_kulilac" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_kulilac" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_kulilac" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_kulilac" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_gechastalik" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_gechastalik" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_gechastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gechastalik" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_ailehastalik" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_ailehastalik" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_ailehastalik" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_ailehastalik" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_gecameliyat" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_gecameliyat" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_gecameliyat" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_gecameliyat" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_resim" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_resim" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_hasta_resim" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="hasta_resim" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_esadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_esadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_esadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_essoyadi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_essoyadi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_essoyadi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_essoyadi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_esmeslegi" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_esmeslegi" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_esmeslegi" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_esmeslegi" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_hasta_es_kangrubu" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="hasta_es_kangrubu" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_hasta_es_kangrubu" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="hasta_es_kangrubu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="hasta_kodu" DataSetColumn="hasta_kodu" />
+              <Mapping SourceColumn="hasta_adi" DataSetColumn="hasta_adi" />
+              <Mapping SourceColumn="hasta_soyadi" DataSetColumn="hasta_soyadi" />
+              <Mapping SourceColumn="hasta_tcno" DataSetColumn="hasta_tcno" />
+              <Mapping SourceColumn="hasta_pasaportno" DataSetColumn="hasta_pasaportno" />
+              <Mapping SourceColumn="hasta_babaadi" DataSetColumn="hasta_babaadi" />
+              <Mapping SourceColumn="hasta_anneadi" DataSetColumn="hasta_anneadi" />
+              <Mapping SourceColumn="hasta_dtarihi" DataSetColumn="hasta_dtarihi" />
+              <Mapping SourceColumn="hasta_dyeri" DataSetColumn="hasta_dyeri" />
+              <Mapping SourceColumn="hasta_cinsiyet" DataSetColumn="hasta_cinsiyet" />
+              <Mapping SourceColumn="hasta_boyu" DataSetColumn="hasta_boyu" />
+              <Mapping SourceColumn="hasta_kilosu" DataSetColumn="hasta_kilosu" />
+              <Mapping SourceColumn="hasta_meslegi" DataSetColumn="hasta_meslegi" />
+              <Mapping SourceColumn="hasta_kayittarihi" DataSetColumn="hasta_kayittarihi" />
+              <Mapping SourceColumn="hasta_il" DataSetColumn="hasta_il" />
+              <Mapping SourceColumn="hasta_ilce" DataSetColumn="hasta_ilce" />
+              <Mapping SourceColumn="hasta_mahalle_koy" DataSetColumn="hasta_mahalle_koy" />
+              <Mapping SourceColumn="hasta_cadde_sokak" DataSetColumn="hasta_cadde_sokak" />
+              <Mapping SourceColumn="hasta_cepno" DataSetColumn="hasta_cepno" />
+              <Mapping SourceColumn="hasta_evno" DataSetColumn="hasta_evno" />
+              <Mapping SourceColumn="hasta_isno" DataSetColumn="hasta_isno" />
+              <Mapping SourceColumn="hasta_email" DataSetColumn="hasta_email" />
+              <Mapping SourceColumn="hasta_sigara" DataSetColumn="hasta_sigara" />
+              <Mapping SourceColumn="hasta_alkol" DataSetColumn="hasta_alkol" />
+              <Mapping SourceColumn="hasta_kangrubu" DataSetColumn="hasta_kangrubu" />
+              <Mapping SourceColumn="hasta_hepatit" DataSetColumn="hasta_hepatit" />
+              <Mapping SourceColumn="hasta_hiv" DataSetColumn="hasta_hiv" />
+              <Mapping SourceColumn="hasta_diyabet" DataSetColumn="hasta_diyabet" />
+              <Mapping SourceColumn="hasta_kulilac" DataSetColumn="hasta_kulilac" />
+              <Mapping SourceColumn="hasta_gechastalik" DataSetColumn="hasta_gechastalik" />
+              <Mapping SourceColumn="hasta_ailehastalik" DataSetColumn="hasta_ailehastalik" />
+              <Mapping SourceColumn="hasta_gecameliyat" DataSetColumn="hasta_gecameliyat" />
+              <Mapping SourceColumn="hasta_resim" DataSetColumn="hasta_resim" />
+              <Mapping SourceColumn="hasta_ozcesmis" DataSetColumn="hasta_ozcesmis" />
+              <Mapping SourceColumn="hasta_soygecmis" DataSetColumn="hasta_soygecmis" />
+              <Mapping SourceColumn="hasta_esadi" DataSetColumn="hasta_esadi" />
+              <Mapping SourceColumn="hasta_essoyadi" DataSetColumn="hasta_essoyadi" />
+              <Mapping SourceColumn="hasta_estelno" DataSetColumn="hasta_estelno" />
+              <Mapping SourceColumn="hasta_esmeslegi" DataSetColumn="hasta_esmeslegi" />
+              <Mapping SourceColumn="hasta_es_kangrubu" DataSetColumn="hasta_es_kangrubu" />
+              <Mapping SourceColumn="hasta_uyari_mesaj" DataSetColumn="hasta_uyari_mesaj" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hastane_otomasyonu_yDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="hastane_otomasyonu_yDataSet3" msprop:Generator_UserDSName="hastane_otomasyonu_yDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hasta" msprop:Generator_TableClassName="hastaDataTable" msprop:Generator_TableVarName="tablehasta" msprop:Generator_TablePropName="hasta" msprop:Generator_RowDeletingName="hastaRowDeleting" msprop:Generator_RowChangingName="hastaRowChanging" msprop:Generator_RowEvHandlerName="hastaRowChangeEventHandler" msprop:Generator_RowDeletedName="hastaRowDeleted" msprop:Generator_UserTableName="hasta" msprop:Generator_RowChangedName="hastaRowChanged" msprop:Generator_RowEvArgName="hastaRowChangeEvent" msprop:Generator_RowClassName="hastaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="hasta_kodu" msprop:Generator_ColumnVarNameInTable="columnhasta_kodu" msprop:Generator_ColumnPropNameInRow="hasta_kodu" msprop:Generator_ColumnPropNameInTable="hasta_koduColumn" msprop:Generator_UserColumnName="hasta_kodu" type="xs:int" />
+              <xs:element name="hasta_adi" msprop:Generator_ColumnVarNameInTable="columnhasta_adi" msprop:Generator_ColumnPropNameInRow="hasta_adi" msprop:Generator_ColumnPropNameInTable="hasta_adiColumn" msprop:Generator_UserColumnName="hasta_adi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_soyadi" msprop:Generator_ColumnVarNameInTable="columnhasta_soyadi" msprop:Generator_ColumnPropNameInRow="hasta_soyadi" msprop:Generator_ColumnPropNameInTable="hasta_soyadiColumn" msprop:Generator_UserColumnName="hasta_soyadi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_tcno" msprop:Generator_ColumnVarNameInTable="columnhasta_tcno" msprop:Generator_ColumnPropNameInRow="hasta_tcno" msprop:Generator_ColumnPropNameInTable="hasta_tcnoColumn" msprop:Generator_UserColumnName="hasta_tcno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_pasaportno" msprop:Generator_ColumnVarNameInTable="columnhasta_pasaportno" msprop:Generator_ColumnPropNameInRow="hasta_pasaportno" msprop:Generator_ColumnPropNameInTable="hasta_pasaportnoColumn" msprop:Generator_UserColumnName="hasta_pasaportno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_babaadi" msprop:Generator_ColumnVarNameInTable="columnhasta_babaadi" msprop:Generator_ColumnPropNameInRow="hasta_babaadi" msprop:Generator_ColumnPropNameInTable="hasta_babaadiColumn" msprop:Generator_UserColumnName="hasta_babaadi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_anneadi" msprop:Generator_ColumnVarNameInTable="columnhasta_anneadi" msprop:Generator_ColumnPropNameInRow="hasta_anneadi" msprop:Generator_ColumnPropNameInTable="hasta_anneadiColumn" msprop:Generator_UserColumnName="hasta_anneadi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_dtarihi" msprop:Generator_ColumnVarNameInTable="columnhasta_dtarihi" msprop:Generator_ColumnPropNameInRow="hasta_dtarihi" msprop:Generator_ColumnPropNameInTable="hasta_dtarihiColumn" msprop:Generator_UserColumnName="hasta_dtarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_dyeri" msprop:Generator_ColumnVarNameInTable="columnhasta_dyeri" msprop:Generator_ColumnPropNameInRow="hasta_dyeri" msprop:Generator_ColumnPropNameInTable="hasta_dyeriColumn" msprop:Generator_UserColumnName="hasta_dyeri" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_cinsiyet" msprop:Generator_ColumnVarNameInTable="columnhasta_cinsiyet" msprop:Generator_ColumnPropNameInRow="hasta_cinsiyet" msprop:Generator_ColumnPropNameInTable="hasta_cinsiyetColumn" msprop:Generator_UserColumnName="hasta_cinsiyet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_boyu" msprop:Generator_ColumnVarNameInTable="columnhasta_boyu" msprop:Generator_ColumnPropNameInRow="hasta_boyu" msprop:Generator_ColumnPropNameInTable="hasta_boyuColumn" msprop:Generator_UserColumnName="hasta_boyu" type="xs:int" minOccurs="0" />
+              <xs:element name="hasta_kilosu" msprop:Generator_ColumnVarNameInTable="columnhasta_kilosu" msprop:Generator_ColumnPropNameInRow="hasta_kilosu" msprop:Generator_ColumnPropNameInTable="hasta_kilosuColumn" msprop:Generator_UserColumnName="hasta_kilosu" type="xs:int" minOccurs="0" />
+              <xs:element name="hasta_meslegi" msprop:Generator_ColumnVarNameInTable="columnhasta_meslegi" msprop:Generator_ColumnPropNameInRow="hasta_meslegi" msprop:Generator_ColumnPropNameInTable="hasta_meslegiColumn" msprop:Generator_UserColumnName="hasta_meslegi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_kayittarihi" msprop:Generator_ColumnVarNameInTable="columnhasta_kayittarihi" msprop:Generator_ColumnPropNameInRow="hasta_kayittarihi" msprop:Generator_ColumnPropNameInTable="hasta_kayittarihiColumn" msprop:Generator_UserColumnName="hasta_kayittarihi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_il" msprop:Generator_ColumnVarNameInTable="columnhasta_il" msprop:Generator_ColumnPropNameInRow="hasta_il" msprop:Generator_ColumnPropNameInTable="hasta_ilColumn" msprop:Generator_UserColumnName="hasta_il" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_ilce" msprop:Generator_ColumnVarNameInTable="columnhasta_ilce" msprop:Generator_ColumnPropNameInRow="hasta_ilce" msprop:Generator_ColumnPropNameInTable="hasta_ilceColumn" msprop:Generator_UserColumnName="hasta_ilce" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_mahalle_koy" msprop:Generator_ColumnVarNameInTable="columnhasta_mahalle_koy" msprop:Generator_ColumnPropNameInRow="hasta_mahalle_koy" msprop:Generator_ColumnPropNameInTable="hasta_mahalle_koyColumn" msprop:Generator_UserColumnName="hasta_mahalle_koy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_cadde_sokak" msprop:Generator_ColumnVarNameInTable="columnhasta_cadde_sokak" msprop:Generator_ColumnPropNameInRow="hasta_cadde_sokak" msprop:Generator_ColumnPropNameInTable="hasta_cadde_sokakColumn" msprop:Generator_UserColumnName="hasta_cadde_sokak" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_cepno" msprop:Generator_ColumnVarNameInTable="columnhasta_cepno" msprop:Generator_ColumnPropNameInRow="hasta_cepno" msprop:Generator_ColumnPropNameInTable="hasta_cepnoColumn" msprop:Generator_UserColumnName="hasta_cepno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_evno" msprop:Generator_ColumnVarNameInTable="columnhasta_evno" msprop:Generator_ColumnPropNameInRow="hasta_evno" msprop:Generator_ColumnPropNameInTable="hasta_evnoColumn" msprop:Generator_UserColumnName="hasta_evno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_isno" msprop:Generator_ColumnVarNameInTable="columnhasta_isno" msprop:Generator_ColumnPropNameInRow="hasta_isno" msprop:Generator_ColumnPropNameInTable="hasta_isnoColumn" msprop:Generator_UserColumnName="hasta_isno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_email" msprop:Generator_ColumnVarNameInTable="columnhasta_email" msprop:Generator_ColumnPropNameInRow="hasta_email" msprop:Generator_ColumnPropNameInTable="hasta_emailColumn" msprop:Generator_UserColumnName="hasta_email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_sigara" msprop:Generator_ColumnVarNameInTable="columnhasta_sigara" msprop:Generator_ColumnPropNameInRow="hasta_sigara" msprop:Generator_ColumnPropNameInTable="hasta_sigaraColumn" msprop:Generator_UserColumnName="hasta_sigara" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_alkol" msprop:Generator_ColumnVarNameInTable="columnhasta_alkol" msprop:Generator_ColumnPropNameInRow="hasta_alkol" msprop:Generator_ColumnPropNameInTable="hasta_alkolColumn" msprop:Generator_UserColumnName="hasta_alkol" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_kangrubu" msprop:Generator_ColumnVarNameInTable="columnhasta_kangrubu" msprop:Generator_ColumnPropNameInRow="hasta_kangrubu" msprop:Generator_ColumnPropNameInTable="hasta_kangrubuColumn" msprop:Generator_UserColumnName="hasta_kangrubu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_hepatit" msprop:Generator_ColumnVarNameInTable="columnhasta_hepatit" msprop:Generator_ColumnPropNameInRow="hasta_hepatit" msprop:Generator_ColumnPropNameInTable="hasta_hepatitColumn" msprop:Generator_UserColumnName="hasta_hepatit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_hiv" msprop:Generator_ColumnVarNameInTable="columnhasta_hiv" msprop:Generator_ColumnPropNameInRow="hasta_hiv" msprop:Generator_ColumnPropNameInTable="hasta_hivColumn" msprop:Generator_UserColumnName="hasta_hiv" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_diyabet" msprop:Generator_ColumnVarNameInTable="columnhasta_diyabet" msprop:Generator_ColumnPropNameInRow="hasta_diyabet" msprop:Generator_ColumnPropNameInTable="hasta_diyabetColumn" msprop:Generator_UserColumnName="hasta_diyabet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_kulilac" msprop:Generator_ColumnVarNameInTable="columnhasta_kulilac" msprop:Generator_ColumnPropNameInRow="hasta_kulilac" msprop:Generator_ColumnPropNameInTable="hasta_kulilacColumn" msprop:Generator_UserColumnName="hasta_kulilac" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_gechastalik" msprop:Generator_ColumnVarNameInTable="columnhasta_gechastalik" msprop:Generator_ColumnPropNameInRow="hasta_gechastalik" msprop:Generator_ColumnPropNameInTable="hasta_gechastalikColumn" msprop:Generator_UserColumnName="hasta_gechastalik" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_ailehastalik" msprop:Generator_ColumnVarNameInTable="columnhasta_ailehastalik" msprop:Generator_ColumnPropNameInRow="hasta_ailehastalik" msprop:Generator_ColumnPropNameInTable="hasta_ailehastalikColumn" msprop:Generator_UserColumnName="hasta_ailehastalik" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_gecameliyat" msprop:Generator_ColumnVarNameInTable="columnhasta_gecameliyat" msprop:Generator_ColumnPropNameInRow="hasta_gecameliyat" msprop:Generator_ColumnPropNameInTable="hasta_gecameliyatColumn" msprop:Generator_UserColumnName="hasta_gecameliyat" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_resim" msprop:Generator_ColumnVarNameInTable="columnhasta_resim" msprop:Generator_ColumnPropNameInRow="hasta_resim" msprop:Generator_ColumnPropNameInTable="hasta_resimColumn" msprop:Generator_UserColumnName="hasta_resim" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_ozcesmis" msprop:Generator_ColumnVarNameInTable="columnhasta_ozcesmis" msprop:Generator_ColumnPropNameInRow="hasta_ozcesmis" msprop:Generator_ColumnPropNameInTable="hasta_ozcesmisColumn" msprop:Generator_UserColumnName="hasta_ozcesmis" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_soygecmis" msprop:Generator_ColumnVarNameInTable="columnhasta_soygecmis" msprop:Generator_ColumnPropNameInRow="hasta_soygecmis" msprop:Generator_ColumnPropNameInTable="hasta_soygecmisColumn" msprop:Generator_UserColumnName="hasta_soygecmis" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_esadi" msprop:Generator_ColumnVarNameInTable="columnhasta_esadi" msprop:Generator_ColumnPropNameInRow="hasta_esadi" msprop:Generator_ColumnPropNameInTable="hasta_esadiColumn" msprop:Generator_UserColumnName="hasta_esadi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_essoyadi" msprop:Generator_ColumnVarNameInTable="columnhasta_essoyadi" msprop:Generator_ColumnPropNameInRow="hasta_essoyadi" msprop:Generator_ColumnPropNameInTable="hasta_essoyadiColumn" msprop:Generator_UserColumnName="hasta_essoyadi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_estelno" msprop:Generator_ColumnVarNameInTable="columnhasta_estelno" msprop:Generator_ColumnPropNameInRow="hasta_estelno" msprop:Generator_ColumnPropNameInTable="hasta_estelnoColumn" msprop:Generator_UserColumnName="hasta_estelno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_esmeslegi" msprop:Generator_ColumnVarNameInTable="columnhasta_esmeslegi" msprop:Generator_ColumnPropNameInRow="hasta_esmeslegi" msprop:Generator_ColumnPropNameInTable="hasta_esmeslegiColumn" msprop:Generator_UserColumnName="hasta_esmeslegi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_es_kangrubu" msprop:Generator_ColumnVarNameInTable="columnhasta_es_kangrubu" msprop:Generator_ColumnPropNameInRow="hasta_es_kangrubu" msprop:Generator_ColumnPropNameInTable="hasta_es_kangrubuColumn" msprop:Generator_UserColumnName="hasta_es_kangrubu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hasta_uyari_mesaj" msprop:Generator_ColumnVarNameInTable="columnhasta_uyari_mesaj" msprop:Generator_ColumnPropNameInRow="hasta_uyari_mesaj" msprop:Generator_ColumnPropNameInTable="hasta_uyari_mesajColumn" msprop:Generator_UserColumnName="hasta_uyari_mesaj" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:hasta" />
+      <xs:field xpath="mstns:hasta_kodu" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

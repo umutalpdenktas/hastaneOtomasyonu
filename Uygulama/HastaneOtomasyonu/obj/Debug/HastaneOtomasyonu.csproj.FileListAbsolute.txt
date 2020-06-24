@@ -1,0 +1,183 @@
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\bin\Debug\Uygulama.exe.config
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\bin\Debug\Uygulama.exe
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\bin\Debug\Uygulama.pdb
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\HastaneOtomasyonu.csprojAssemblyReference.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Admin.admin_hastalistesi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Admin.admin_hastalistesi_yenikayit.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Admin.admin_hastamuayenebilgileri.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Admin.admin_hasta_duzenle.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Admin.admin_main.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Giris.giris_ekrani.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.Properties.Resources.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\HastaneOtomasyonu.csproj.GenerateResource.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\HastaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.exe
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\Uygulama\obj\Debug\Uygulama.pdb
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Uygulama.exe.config
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Uygulama.exe
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Uygulama.pdb
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csprojAssemblyReference.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hastalistesi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hastalistesi_yenikayit.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hastamuayenebilgileri.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hasta_duzenle.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_main.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Giris.giris_ekrani.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Properties.Resources.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.GenerateResource.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.exe
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.pdb
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.ResolveComReference.cache
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_mailhepsi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_doktor_gecis.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_noroloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Genel.teshisler.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_noroloji_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_laboratuvar.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_laboratuvar_gi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_radyoloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_radyoloji_gi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_ameliyathane.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hasta_ekrani.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kardiyoloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kardiyoloji_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ortopedi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ortopedi_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ftr.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ftr_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_cocuk.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_cocuk_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ichastalik.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ichastalik_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kadind.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kadind_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_psikiyatri.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_psikiyatri_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_dermatoloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_dermatoloji_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kbb.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kbb_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_goz.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_goz_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_noroloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_noroloji_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_mail.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kardiyoloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kardiyoloji_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ortopedi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ortopedi_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ftr.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ftr_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_cocuk.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_cocuk_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ichastaliklar_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ichastaliklar.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kadind.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kadind_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_psikiyatri.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_psikiyatri_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_dermatoloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_dermatoloji_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kbb.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kbb_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_goz.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_goz_gh.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_mail.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_hastalistesi_duzenle.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_hastalistesi_yenikayit.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_hastalistesi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Laboratuvar.laboratuvar.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Laboratuvar.laboratuvar_gi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Radyoloji.Radyoloji_radyoloji.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Radyoloji.Radyoloji_radyoloji_gi.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Ameliyathane.ameliyathane.resources
+C:\Users\alper\Desktop\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.loading.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Uygulama.exe.config
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Uygulama.exe
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Uygulama.pdb
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csprojAssemblyReference.cache
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.ResolveComReference.cache
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_ameliyathane.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_doktor_gecis.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hastalistesi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hastalistesi_yenikayit.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hastamuayenebilgileri.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hasta_duzenle.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_laboratuvar.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_laboratuvar_gi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_mailhepsi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_main.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_radyoloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_radyoloji_gi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ftr.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ftr_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_cocuk.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_cocuk_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ichastalik.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_goz_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ichastalik_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kadind.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kadind_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_dermatoloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_dermatoloji_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kbb.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kbb_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_goz.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_psikiyatri_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_psikiyatri.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ortopedi_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_ortopedi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_noroloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kardiyoloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_kardiyoloji_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.DoktorForm.admin_doktor_noroloji_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Admin.admin_hasta_ekrani.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Ameliyathane.ameliyathane.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_goz.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_goz_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kbb_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kbb.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_dermatoloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_dermatoloji_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_psikiyatri_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_psikiyatri.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kadind_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kadind.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ichastaliklar_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ichastaliklar.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_cocuk.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_cocuk_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_mail.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kardiyoloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_kardiyoloji_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ftr.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ftr_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ortopedi_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_ortopedi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_noroloji_gh.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Doktor.doktor_noroloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Genel.teshisler.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Giris.giris_ekrani.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_mail.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_hastalistesi_duzenle.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_hastalistesi_yenikayit.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.HastaKabul.hastakabul_hastalistesi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Laboratuvar.laboratuvar_gi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Laboratuvar.laboratuvar.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.loading.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Properties.Resources.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Radyoloji.Radyoloji_radyoloji.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.Radyoloji.Radyoloji_radyoloji_gi.resources
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.GenerateResource.cache
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\HastaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.exe
+C:\Users\alper\Desktop\Hastane Otomasyonu\ayhan hoca\Uygulama\HastaneOtomasyonu\obj\Debug\Uygulama.pdb

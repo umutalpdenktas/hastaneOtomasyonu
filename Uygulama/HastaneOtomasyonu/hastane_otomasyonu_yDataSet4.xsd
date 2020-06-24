@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hastane_otomasyonu_yDataSet4" targetNamespace="http://tempuri.org/hastane_otomasyonu_yDataSet4.xsd" xmlns:mstns="http://tempuri.org/hastane_otomasyonu_yDataSet4.xsd" xmlns="http://tempuri.org/hastane_otomasyonu_yDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hastane_otomasyonu_yConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hastane_otomasyonu_yConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Uygulama.Properties.Settings.GlobalReference.Default.hastane_otomasyonu_yConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="hastaTableAdapter" GeneratorDataComponentClassName="hastaTableAdapter" Name="hasta" UserDataComponentName="hastaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hastane_otomasyonu_yConnectionString (Settings)" DbObjectName="hastane_otomasyonu_y.dbo.hasta" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT hasta_email FROM dbo.hasta</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="hasta_email" DataSetColumn="hasta_email" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hastane_otomasyonu_yDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="hastane_otomasyonu_yDataSet4" msprop:Generator_UserDSName="hastane_otomasyonu_yDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="hasta" msprop:Generator_TableClassName="hastaDataTable" msprop:Generator_TableVarName="tablehasta" msprop:Generator_TablePropName="hasta" msprop:Generator_RowDeletingName="hastaRowDeleting" msprop:Generator_RowChangingName="hastaRowChanging" msprop:Generator_RowEvHandlerName="hastaRowChangeEventHandler" msprop:Generator_RowDeletedName="hastaRowDeleted" msprop:Generator_UserTableName="hasta" msprop:Generator_RowChangedName="hastaRowChanged" msprop:Generator_RowEvArgName="hastaRowChangeEvent" msprop:Generator_RowClassName="hastaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="hasta_email" msprop:Generator_ColumnVarNameInTable="columnhasta_email" msprop:Generator_ColumnPropNameInRow="hasta_email" msprop:Generator_ColumnPropNameInTable="hasta_emailColumn" msprop:Generator_UserColumnName="hasta_email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDDC4CD9-CA1A-4973-9630-9318D0CAE5F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Uygulama</RootNamespace>
+    <AssemblyName>Uygulama</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\admin_ameliyathane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_ameliyathane.Designer.cs">
+      <DependentUpon>admin_ameliyathane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_doktor_gecis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_doktor_gecis.Designer.cs">
+      <DependentUpon>admin_doktor_gecis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_hastalistesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_hastalistesi.Designer.cs">
+      <DependentUpon>admin_hastalistesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_hastalistesi_yenikayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_hastalistesi_yenikayit.Designer.cs">
+      <DependentUpon>admin_hastalistesi_yenikayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_hastamuayenebilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_hastamuayenebilgileri.Designer.cs">
+      <DependentUpon>admin_hastamuayenebilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_hasta_duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_hasta_duzenle.Designer.cs">
+      <DependentUpon>admin_hasta_duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_laboratuvar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_laboratuvar.Designer.cs">
+      <DependentUpon>admin_laboratuvar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_laboratuvar_gi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_laboratuvar_gi.Designer.cs">
+      <DependentUpon>admin_laboratuvar_gi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_mailhepsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_mailhepsi.Designer.cs">
+      <DependentUpon>admin_mailhepsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_main.Designer.cs">
+      <DependentUpon>admin_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_radyoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_radyoloji.Designer.cs">
+      <DependentUpon>admin_radyoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_radyoloji_gi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_radyoloji_gi.Designer.cs">
+      <DependentUpon>admin_radyoloji_gi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ftr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ftr.Designer.cs">
+      <DependentUpon>admin_doktor_ftr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ftr_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ftr_gh.Designer.cs">
+      <DependentUpon>admin_doktor_ftr_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_cocuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_cocuk.Designer.cs">
+      <DependentUpon>admin_doktor_cocuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_cocuk_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_cocuk_gh.Designer.cs">
+      <DependentUpon>admin_doktor_cocuk_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ichastalik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ichastalik.Designer.cs">
+      <DependentUpon>admin_doktor_ichastalik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_goz_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_goz_gh.Designer.cs">
+      <DependentUpon>admin_doktor_goz_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ichastalik_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ichastalik_gh.Designer.cs">
+      <DependentUpon>admin_doktor_ichastalik_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kadind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kadind.Designer.cs">
+      <DependentUpon>admin_doktor_kadind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kadind_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kadind_gh.Designer.cs">
+      <DependentUpon>admin_doktor_kadind_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_dermatoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_dermatoloji.Designer.cs">
+      <DependentUpon>admin_doktor_dermatoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_dermatoloji_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_dermatoloji_gh.Designer.cs">
+      <DependentUpon>admin_doktor_dermatoloji_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kbb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kbb.Designer.cs">
+      <DependentUpon>admin_doktor_kbb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kbb_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kbb_gh.Designer.cs">
+      <DependentUpon>admin_doktor_kbb_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_goz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_goz.Designer.cs">
+      <DependentUpon>admin_doktor_goz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_psikiyatri_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_psikiyatri_gh.Designer.cs">
+      <DependentUpon>admin_doktor_psikiyatri_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_psikiyatri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_psikiyatri.Designer.cs">
+      <DependentUpon>admin_doktor_psikiyatri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ortopedi_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ortopedi_gh.Designer.cs">
+      <DependentUpon>admin_doktor_ortopedi_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ortopedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_ortopedi.Designer.cs">
+      <DependentUpon>admin_doktor_ortopedi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_noroloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_noroloji.Designer.cs">
+      <DependentUpon>admin_doktor_noroloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kardiyoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kardiyoloji.Designer.cs">
+      <DependentUpon>admin_doktor_kardiyoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kardiyoloji_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_kardiyoloji_gh.Designer.cs">
+      <DependentUpon>admin_doktor_kardiyoloji_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_noroloji_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\DoktorForm\admin_doktor_noroloji_gh.Designer.cs">
+      <DependentUpon>admin_doktor_noroloji_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_hasta_ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_hasta_ekrani.Designer.cs">
+      <DependentUpon>admin_hasta_ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ameliyathane\ameliyathane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ameliyathane\ameliyathane.Designer.cs">
+      <DependentUpon>ameliyathane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_goz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_goz.Designer.cs">
+      <DependentUpon>doktor_goz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_goz_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_goz_gh.Designer.cs">
+      <DependentUpon>doktor_goz_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_kbb_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_kbb_gh.Designer.cs">
+      <DependentUpon>doktor_kbb_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_kbb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_kbb.Designer.cs">
+      <DependentUpon>doktor_kbb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_dermatoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_dermatoloji.Designer.cs">
+      <DependentUpon>doktor_dermatoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_dermatoloji_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_dermatoloji_gh.Designer.cs">
+      <DependentUpon>doktor_dermatoloji_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_psikiyatri_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_psikiyatri_gh.Designer.cs">
+      <DependentUpon>doktor_psikiyatri_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_psikiyatri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_psikiyatri.Designer.cs">
+      <DependentUpon>doktor_psikiyatri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_kadind_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_kadind_gh.Designer.cs">
+      <DependentUpon>doktor_kadind_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_kadind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_kadind.Designer.cs">
+      <DependentUpon>doktor_kadind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_ichastaliklar_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_ichastaliklar_gh.Designer.cs">
+      <DependentUpon>doktor_ichastaliklar_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_ichastaliklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_ichastaliklar.Designer.cs">
+      <DependentUpon>doktor_ichastaliklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_cocuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_cocuk.Designer.cs">
+      <DependentUpon>doktor_cocuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_cocuk_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_cocuk_gh.Designer.cs">
+      <DependentUpon>doktor_cocuk_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_mail.Designer.cs">
+      <DependentUpon>doktor_mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_kardiyoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_kardiyoloji.Designer.cs">
+      <DependentUpon>doktor_kardiyoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_kardiyoloji_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_kardiyoloji_gh.Designer.cs">
+      <DependentUpon>doktor_kardiyoloji_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_ftr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_ftr.Designer.cs">
+      <DependentUpon>doktor_ftr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_ftr_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_ftr_gh.Designer.cs">
+      <DependentUpon>doktor_ftr_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_ortorpedi_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_ortorpedi_gh.Designer.cs">
+      <DependentUpon>doktor_ortorpedi_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_ortopedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_ortopedi.Designer.cs">
+      <DependentUpon>doktor_ortopedi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_noroloji_gh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_noroloji_gh.Designer.cs">
+      <DependentUpon>doktor_noroloji_gh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor\doktor_noroloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor\doktor_noroloji.Designer.cs">
+      <DependentUpon>doktor_noroloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ek Bileşen\MessageBoxManager.cs" />
+    <Compile Include="Genel\teshisler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Genel\teshisler.Designer.cs">
+      <DependentUpon>teshisler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris\giris_ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris\giris_ekrani.Designer.cs">
+      <DependentUpon>giris_ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_mail.Designer.cs">
+      <DependentUpon>hastakabul_mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_hastalistesi_duzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_hastalistesi_duzenle.Designer.cs">
+      <DependentUpon>hastakabul_hastalistesi_duzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_hastalistesi_yenikayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_hastalistesi_yenikayit.Designer.cs">
+      <DependentUpon>hastakabul_hastalistesi_yenikayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_hastalistesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaKabul\hastakabul_hastalistesi.Designer.cs">
+      <DependentUpon>hastakabul_hastalistesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet210.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet210.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hastane_otomasyonu_yDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hastane_otomasyonu_yDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratuvar\laboratuvar_gi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratuvar\laboratuvar_gi.Designer.cs">
+      <DependentUpon>laboratuvar_gi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratuvar\laboratuvar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laboratuvar\laboratuvar.Designer.cs">
+      <DependentUpon>laboratuvar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radyoloji\radyoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Radyoloji\radyoloji.Designer.cs">
+      <DependentUpon>radyoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Radyoloji\radyoloji_gi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Radyoloji\radyoloji_gi.Designer.cs">
+      <DependentUpon>radyoloji_gi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\admin_ameliyathane.resx">
+      <DependentUpon>admin_ameliyathane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_doktor_gecis.resx">
+      <DependentUpon>admin_doktor_gecis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_hastalistesi.resx">
+      <DependentUpon>admin_hastalistesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_hastalistesi_yenikayit.resx">
+      <DependentUpon>admin_hastalistesi_yenikayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_hastamuayenebilgileri.resx">
+      <DependentUpon>admin_hastamuayenebilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_hasta_duzenle.resx">
+      <DependentUpon>admin_hasta_duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_laboratuvar.resx">
+      <DependentUpon>admin_laboratuvar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_laboratuvar_gi.resx">
+      <DependentUpon>admin_laboratuvar_gi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_mailhepsi.resx">
+      <DependentUpon>admin_mailhepsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_main.resx">
+      <DependentUpon>admin_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_radyoloji.resx">
+      <DependentUpon>admin_radyoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_radyoloji_gi.resx">
+      <DependentUpon>admin_radyoloji_gi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_ftr.resx">
+      <DependentUpon>admin_doktor_ftr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_ftr_gh.resx">
+      <DependentUpon>admin_doktor_ftr_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_cocuk.resx">
+      <DependentUpon>admin_doktor_cocuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_cocuk_gh.resx">
+      <DependentUpon>admin_doktor_cocuk_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_ichastalik.resx">
+      <DependentUpon>admin_doktor_ichastalik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_goz_gh.resx">
+      <DependentUpon>admin_doktor_goz_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_ichastalik_gh.resx">
+      <DependentUpon>admin_doktor_ichastalik_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_kadind.resx">
+      <DependentUpon>admin_doktor_kadind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_kadind_gh.resx">
+      <DependentUpon>admin_doktor_kadind_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_dermatoloji.resx">
+      <DependentUpon>admin_doktor_dermatoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_dermatoloji_gh.resx">
+      <DependentUpon>admin_doktor_dermatoloji_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_kbb.resx">
+      <DependentUpon>admin_doktor_kbb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_kbb_gh.resx">
+      <DependentUpon>admin_doktor_kbb_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_goz.resx">
+      <DependentUpon>admin_doktor_goz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_psikiyatri_gh.resx">
+      <DependentUpon>admin_doktor_psikiyatri_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_psikiyatri.resx">
+      <DependentUpon>admin_doktor_psikiyatri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_ortopedi_gh.resx">
+      <DependentUpon>admin_doktor_ortopedi_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_ortopedi.resx">
+      <DependentUpon>admin_doktor_ortopedi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_noroloji.resx">
+      <DependentUpon>admin_doktor_noroloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_kardiyoloji.resx">
+      <DependentUpon>admin_doktor_kardiyoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_kardiyoloji_gh.resx">
+      <DependentUpon>admin_doktor_kardiyoloji_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\DoktorForm\admin_doktor_noroloji_gh.resx">
+      <DependentUpon>admin_doktor_noroloji_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_hasta_ekrani.resx">
+      <DependentUpon>admin_hasta_ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ameliyathane\ameliyathane.resx">
+      <DependentUpon>ameliyathane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_goz.resx">
+      <DependentUpon>doktor_goz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_goz_gh.resx">
+      <DependentUpon>doktor_goz_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_kbb_gh.resx">
+      <DependentUpon>doktor_kbb_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_kbb.resx">
+      <DependentUpon>doktor_kbb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_dermatoloji.resx">
+      <DependentUpon>doktor_dermatoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_dermatoloji_gh.resx">
+      <DependentUpon>doktor_dermatoloji_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_psikiyatri_gh.resx">
+      <DependentUpon>doktor_psikiyatri_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_psikiyatri.resx">
+      <DependentUpon>doktor_psikiyatri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_kadind_gh.resx">
+      <DependentUpon>doktor_kadind_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_kadind.resx">
+      <DependentUpon>doktor_kadind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_ichastaliklar_gh.resx">
+      <DependentUpon>doktor_ichastaliklar_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_ichastaliklar.resx">
+      <DependentUpon>doktor_ichastaliklar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_cocuk.resx">
+      <DependentUpon>doktor_cocuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_cocuk_gh.resx">
+      <DependentUpon>doktor_cocuk_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_mail.resx">
+      <DependentUpon>doktor_mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_kardiyoloji.resx">
+      <DependentUpon>doktor_kardiyoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_kardiyoloji_gh.resx">
+      <DependentUpon>doktor_kardiyoloji_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_ftr.resx">
+      <DependentUpon>doktor_ftr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_ftr_gh.resx">
+      <DependentUpon>doktor_ftr_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_ortorpedi_gh.resx">
+      <DependentUpon>doktor_ortorpedi_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_ortopedi.resx">
+      <DependentUpon>doktor_ortopedi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_noroloji_gh.resx">
+      <DependentUpon>doktor_noroloji_gh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor\doktor_noroloji.resx">
+      <DependentUpon>doktor_noroloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Genel\teshisler.resx">
+      <DependentUpon>teshisler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris\giris_ekrani.resx">
+      <DependentUpon>giris_ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaKabul\hastakabul_mail.resx">
+      <DependentUpon>hastakabul_mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaKabul\hastakabul_hastalistesi_duzenle.resx">
+      <DependentUpon>hastakabul_hastalistesi_duzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaKabul\hastakabul_hastalistesi_yenikayit.resx">
+      <DependentUpon>hastakabul_hastalistesi_yenikayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaKabul\hastakabul_hastalistesi.resx">
+      <DependentUpon>hastakabul_hastalistesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratuvar\laboratuvar_gi.resx">
+      <DependentUpon>laboratuvar_gi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laboratuvar\laboratuvar.resx">
+      <DependentUpon>laboratuvar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Radyoloji\radyoloji.resx">
+      <DependentUpon>radyoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Radyoloji\radyoloji_gi.resx">
+      <DependentUpon>radyoloji_gi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="hastane_otomasyonu_yDataSet.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet1.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet1.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet10.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet10.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet11.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet11.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet12.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet12.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet13.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet13.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet14.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet14.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet15.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet15.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet16.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet16.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet17.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet17.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet18.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet18.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet19.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet19.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet20.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet20.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet21.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet21.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet210.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet210.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet210.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet210.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet210.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet210.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet22.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet22.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet23.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet23.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet24.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet24.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet25.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet25.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet26.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet26.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet27.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet27.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet28.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet28.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet29.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet29.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet3.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet3.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet30.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet30.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet4.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet4.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet5.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet5.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet6.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet6.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet7.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet7.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet8.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet8.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet9.xsc">
+      <DependentUpon>hastane_otomasyonu_yDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hastane_otomasyonu_yDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hastane_otomasyonu_yDataSet9.xss">
+      <DependentUpon>hastane_otomasyonu_yDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Uygulama\Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PointedPettyHairstreakbutterfly-size_restricted.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
